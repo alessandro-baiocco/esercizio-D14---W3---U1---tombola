@@ -1,0 +1,44 @@
+/* main */
+
+main .postoTabellaGrossa {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  padding: 0px;
+  border: 2px solid black;
+}
+
+.small {
+  /* position: absolute; */
+  /* display: inline-block; */
+  border: 2px solid black;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.uscito {
+  background-color: aquamarine;
+}
+
+.tabellaGiocatore {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 384px;
+  padding: 0px;
+}
+.tabellaGiocatore2 {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 384px;
+  padding: 0px;
+}
+.tabellaGiocatore3 {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 384px;
+  padding: 0px;
+}

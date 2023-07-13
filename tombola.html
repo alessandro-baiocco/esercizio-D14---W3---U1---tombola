@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/tombola.css" />
+  </head>
+  <body>
+    <header><h1>TOMBOLA</h1></header>
+    <nav>
+      <button class="generateNum" onclick="getRandomCell(event)">dammi il numero</button>
+      <button class="newTab" onclick="newTab(event)">dammi prima tabella</button>
+      <button class="newTab" onclick="newTab2(event)">dammi seconda tabella</button>
+      <button class="newTab" onclick="newTab3(event)">dammi terza tabella</button>
+    </nav>
+    <main>
+      <div class="postoTabellaGrossa"></div>
+    </main>
+    <aside>
+      <div class="tabellaGiocatore"></div>
+      <div class="tabellaGiocatore2"></div>
+      <div class="tabellaGiocatore3"></div>
+    </aside>
+    <script src="js/tombola.js"></script>
+  </body>
+</html>

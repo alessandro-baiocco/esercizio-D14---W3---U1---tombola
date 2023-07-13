@@ -1,0 +1,15 @@
+/* main */
+
+main .postoTabellaGrossa {
+  display: flex;
+  flex-wrap: wrap;
+  width: 752px;
+  height: 32px;
+  padding: 0px;
+  border: 2px solid black;
+}
+
+main .postoTabellaGrossa div {
+  border: 2px solid black;
+  padding: 8px;
+}
