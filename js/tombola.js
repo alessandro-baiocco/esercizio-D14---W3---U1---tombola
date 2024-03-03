@@ -5,9 +5,7 @@ const btnNumb = document.getElementsByClassName("newTab")[0];
 const divFooter = document.querySelector("footer div");
 
 const genArray = [];
-const scheda1 = [];
-const scheda2 = [];
-const scheda3 = [];
+let scheda = [];
 
 const generateCell = function () {
   for (i = 1; i < 76; i++) {
@@ -42,11 +40,11 @@ const generateInt = function (num) {
 let tabI = 0;
 let tabellina = document.getElementsByClassName("tabellaGiocatore");
 
-const newTab = function (createEvent) {
-  const generateInt2 = function () {
+const newTab = (createEvent) => {
+  const generateInt2 = () => {
     const aNumGen = parseInt(Math.floor(Math.random() * 75 + 1));
-    if (!scheda1.includes(aNumGen)) {
-      scheda1.push(aNumGen);
+    if (!scheda.includes(aNumGen)) {
+      scheda.push(aNumGen);
       cell.classList.add(`${aNumGen}`);
       cell.classList.add("small");
       cell.innerText = aNumGen;
@@ -60,6 +58,8 @@ const newTab = function (createEvent) {
     cell = document.createElement("div");
     generateInt2();
   }
+
+  scheda = [];
 
   tabI += 1;
   console.log(tabI);
